@@ -1,0 +1,106 @@
+:root {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    background-image: url("./img/pizza-logo.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    height: 150px;
+    font-size: 30px;
+}
+
+.footer {
+    height: 75px;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 200px;
+    background-color: beige;
+}
+
+.home img {
+    width: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: 90%;
+  }
+
+button {
+    color: white;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+    animation: fadeIn 1.5s;
+}
+
+.menu-item img {
+    width: 100%;
+}
+
+
+h1 {
+    padding-right: 30px;
+}
+
+.button-nav {
+    font-size: 2rem;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+    transition: transform 0.3s;
+}
+  
+.button-nav.active {
+    border-bottom: 2px solid white;
+}
+  
+.button-nav:hover {
+    transform: translateY(-10%);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+  
+.contact img {
+    max-height: 400px;
+}
