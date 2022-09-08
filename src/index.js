@@ -1,1 +1,3 @@
-console.log("Hello there")
+import startWebsite from "./website";
+
+startWebsite();
